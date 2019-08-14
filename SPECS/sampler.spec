@@ -4,7 +4,7 @@
 %global gh_name sampler
 
 Name:           sampler
-Version:        1.0.1
+Version:        1.0.2
 Release:        1%{?dist}
 Summary:        A tool for shell commands execution, visualization and alerting
 Group:          Applications/System
@@ -39,5 +39,8 @@ install -Dm0755 %{_builddir}/src/github.com/%{gh_user}/%{gh_name}/bin/%{name} %{
 %{_bindir}/%{name}
 
 %changelog
+* Thu Aug 15 2019 Jamie Curnow <jc@jc21.com> 1.0.2-1
+- v1.0.2
+
 * Wed Aug 7 2019 Jamie Curnow <jc@jc21.com> 1.0.1-1
 - Initial spec

@@ -24,7 +24,7 @@ Configured with a simple YAML file.
 go build -o bin/%{name}
 
 %install
-install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
+install -Dm0755 bin/%{name} %{buildroot}%{_bindir}/%{name}
 
 %files
 %{_bindir}/%{name}

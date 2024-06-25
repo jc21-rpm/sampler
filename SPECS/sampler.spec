@@ -4,7 +4,7 @@
 
 Name:           sampler
 Version:        1.1.0
-Release:        1
+Release:        1%{?dist}
 Summary:        A tool for shell commands execution, visualization and alerting
 Group:          Applications/System
 License:        GNU

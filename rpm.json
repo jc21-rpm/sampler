@@ -1,4 +1,5 @@
 {
+  "toolchain": "golang",
   "publish": {
     "PACKAGE": "sampler",
     "GH_USER": "jc21-rpm",
